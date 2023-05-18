@@ -234,8 +234,9 @@ i.fa-location-dot {
 }
 
 article h3 {
-    font-size: 1em;
-    display: flex;
+    display:flex;
+    font-size: 16px;
+   
 
 }
 
@@ -587,7 +588,7 @@ footer a:visited {
 /* Small devices (phones, less than 768px) */
 @media (min-width:320px) and (max-width: 767.98px) {
     body {
-        margin: 0 20px;
+        margin: 0;
     }
 
     /***nav***/
@@ -709,7 +710,10 @@ footer a:visited {
 
         display: flex;
         flex-wrap: nowrap;
-        margin: 10px;
+        padding-left:12px;
+        padding-right:23px;
+        padding-top:13px;
+        padding-bottom:13px;
         gap: 15px;
     }
 
@@ -770,7 +774,7 @@ footer a:visited {
 
     .populaires {
         width: 100%;
-        margin-top: 50px;
+       
 
     }
 
