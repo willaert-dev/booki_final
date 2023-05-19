@@ -118,7 +118,7 @@ nav a :visited {
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    margin-left: 65px;
+    margin-left: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,7 +189,6 @@ i.fa-location-dot {
 
 
 }
-
 /**filtres**/
 
 .filtre_slogan h1 {
@@ -422,8 +421,7 @@ i.fa-info {
 
 /*****section activites*****/
 #activites-title {
-    display: flex;
-    width: 100%;
+    display: flex;   
     margin-top: 30px;
     padding-bottom: 20px;
 }
@@ -733,6 +731,7 @@ footer a:visited {
         flex-direction: column;
         margin-top: 20px;       
         align-items:center;
+        margin-left: 0;
         
     }
 
@@ -743,6 +742,7 @@ footer a:visited {
         font-family: 'Raleway', sans-serif;
         font-size: 1em;
         font-weight: 700;
+        
     }
 
     .filtre-recherche article {        
@@ -765,9 +765,10 @@ footer a:visited {
 .selection_filtre {
     
     display:flex;
-    justify-content:center;
-    
-  
+    justify-content:center;  
+}
+.titre-filtre {
+    margin-left:12px;
 }
     /*** section populaire***/
     .main-container {
