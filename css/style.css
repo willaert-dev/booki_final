@@ -583,6 +583,9 @@ footer a:visited {
         gap: 15px;
 
     }
+}.selection_filtre {
+    display: flex;
+    justify-content: center;
 }
 
 /* Small devices (phones, less than 768px) */
@@ -605,9 +608,6 @@ footer a:visited {
         border-bottom: #DEEBFF 2px solid;
         width: 100%;
         text-align: center;
-
-
-
     }
 
     nav a:hover {
@@ -632,6 +632,10 @@ footer a:visited {
     }
 
     /*** barre de recherche***/
+    .titre-filtre {
+        align-self: flex-start;
+
+    }
     .recherche {
         width: 100%;
     }
@@ -641,20 +645,21 @@ footer a:visited {
     }
 
     #search_input i {
-        width: 10%;
+        width: 52px;
         height: 49px;
-        background-color: #0065FC;
+        background-color:#0065FC;
         color: white;
         border: #0065FC 2px solid;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
         display: flex;
         justify-content: center;
         align-items: center;
         visibility: visible;
-        padding: 0 5px;
+        padding:0 12px;
+        
     }
 
     #research {
@@ -697,7 +702,7 @@ footer a:visited {
         font-size: 18px;
         font-weight: 700;
         padding-top: 50px;
-        padding-left: 20px;
+        
     }
 
 
@@ -706,22 +711,19 @@ footer a:visited {
         padding: 0 5px;
     }
 
-    .box1 {
-
+    .box1 {       
+        width: 80%;
         display: flex;
-        flex-wrap: nowrap;
-        padding-left:12px;
-        padding-right:23px;
-        padding-top:13px;
-        padding-bottom:13px;
-        gap: 15px;
+        flex-wrap: nowrap;      
+       
+        
     }
 
     .box2 {
+        width: 80%;       
         display: flex;
-        flex-wrap: nowrap;
-        margin: 10px;
-        gap: 15px;
+        flex-wrap: nowrap;       
+        
 
     }
 
@@ -729,10 +731,9 @@ footer a:visited {
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
-        margin-left: 12px;
-        align-items: start;
-        padding-left: 0px;
+        margin-top: 20px;       
+        align-items:center;
+        
     }
 
     .filtre_titre h2 {
@@ -744,25 +745,33 @@ footer a:visited {
         font-weight: 700;
     }
 
-    .filtre-recherche article {
+    .filtre-recherche article {        
+        width:50%;          
         border: #DEEBFF 1px solid;
         border-radius: 25px;
         padding-top: 15px;
         padding-bottom: 15px;
-        padding-left: 13px;
-        padding-right: 13px;
+        padding-left: 5px;
+        padding-right: 5px;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 10px;
+        
 
     }
-
+.selection_filtre {
+    
+    display:flex;
+    justify-content:center;
+    
+  
+}
     /*** section populaire***/
     .main-container {
+        margin:0;
         padding-left: 0;
         padding-right: 0;
         box-sizing: content-box;
